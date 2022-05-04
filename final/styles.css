@@ -1,0 +1,122 @@
+
+
+nav { 
+    background-image: url(images/nav_background.jpeg);
+    height: 3em; 
+    
+} 
+nav a { 
+    padding: 1em; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    text-decoration: none; 
+    color: black; 
+    display: inline-block; 
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white; 
+    width: 100%; 
+    text-align: center; 
+}
+h2 {
+    color: white;
+    text-align: center;  
+    top: 200px;
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    text-shadow: 0 0 3px #000,
+                  1px 1px 0 #000,
+                 1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+ul { 
+    display: none; 
+}
+p {
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    box-shadow: 10px 10px 5px grey;
+    width: 70%;
+    margin: auto;
+}
+
+footer {
+    background-color:dimgray;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+form {
+    margin-top: 5em;
+}
+form fieldset {
+    border: none;
+}
+
+h1, h2, ul, p {
+	padding: 2em;
+}
+h1 {
+	padding-bottom: .25em;
+}
+
+
+img {
+    height: 90%;
+    
+}
+#slides img {
+	display: none;
+    width: 90%;
+    
+}
+
+				.lightbox { display: none; }
+				.fl-page h1,
+				.fl-page h3,
+				.fl-page h4 {
+					font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+					font-weight: 100;
+					letter-spacing: 1px;
+				}
+				.fl-page h1 { font-size: 110px; margin-bottom: 0.5em; }
+				.fl-page h1 i { font-style: normal; color: #ddd; }
+				.fl-page h1 span { font-size: 30px; color: #333;}
+				.fl-page h3 { text-align: right; }
+				.fl-page h3 { font-size: 15px; }
+				.fl-page h4 { font-size: 2em; }
+				.fl-page .jumbotron { margin-top: 2em; }
+				.fl-page .doc { margin: 2em 0;}
+				.fl-page .btn-download { float: right; }
+				.fl-page .btn-default { vertical-align: bottom; }
+
+				.fl-page .btn-lg span { font-size: 0.7em; }
+				.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
+				.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
+				.fl-page .github { margin: 2em 0; }
+				.fl-page .github a { vertical-align: top; }
+				.fl-page .marketing a { color: #999; }
+
+				/* override default feather style... */
+				.fixwidth {
+					background: rgba(256,256,256, 0.8);
+				}
+				.fixwidth .featherlight-content {
+					width: 500px;
+					padding: 25px;
+					color: #fff;
+					background: #111;
+				}
+				.fixwidth .featherlight-close {
+					color: #fff;
+					background: #333;
+				}

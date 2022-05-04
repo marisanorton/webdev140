@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RW Street Hockey</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="contact.css" type="text/css" />
+  </head>
+    
+  <body>
+	<h1>Contact Us</h1>
+<nav>
+    
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="events.html">Events</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+	
+
+    <main>
+<div class="test" >
+        <form action="success.html" method="get" name="contact_form" id="contact_form">
+		<fieldset>
+        	<legend>Your Information</legend>
+            <label for="first_name">First Name:</label>
+			<input type="text" name="first_name" id="first_name" ><span>*</span><br>
+			<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name" id="last_name" ><span>*</span><br>
+        	<label for="email">Email Address:</label>
+        	<input type="email" name="email" id="email" ><span>*</span><br>
+        	<label for="verify">Verify Email:</label>
+        	<input type="email" name="verify" id="verify" ><span>*</span><br>
+			<label for="phone">Phone Number:</label>
+			<input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="999-999-9999"><span>*</span><br>
+		</fieldset>
+		<fieldset>
+    		<legend>Add a Message</legend>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message"  rows="5" required></textarea>
+		</fieldset>
+        <fieldset id="buttons">            
+        <legend>Submit Your Message</legend>
+            <div>
+                <label>&nbsp;</label>
+                <input type="submit" id="submit" name="submit" value="Submit">
+                <input type="reset" id="reset" name="reset" value="Reset">
+            </div>
+        </fieldset>
+	</form>
+    </div>
+</main>
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
